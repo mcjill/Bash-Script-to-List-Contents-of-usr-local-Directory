@@ -15,17 +15,17 @@ To use this script, you should have the following:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone <repository-url>
+              git clone <repository-url>
 
 1. Change your working directory to the project folder:
    
       ```bash
-cd <project-folder>
+             cd <project-folder>
 
 
 2. Make the script executable:
    ```bash
-chmod +x list_usr_local.sh
+            chmod +x list_usr_local.sh
 
 
 3. Run the script to list the contents of the /usr/local directory:
