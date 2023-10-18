@@ -22,16 +22,14 @@ To use this script, you should have the following:
       ```bash
              cd <project-folder>
 
-
 2. Make the script executable:
    ```bash
             chmod +x list_usr_local.sh
 
-
 3. Run the script to list the contents of the /usr/local directory:
 
    ```bash
-./list_usr_local.sh
+       ./list_usr_local.sh
 
 The output will be displayed in your terminal or command prompt in a single-column format, listing the files and directories found in the /usr/local directory.
 
