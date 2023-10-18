@@ -1,0 +1,36 @@
+# Bash Script to List Contents of /usr/local Directory
+
+## Overview
+This Bash script is designed to list the contents of the `/usr/local` directory. The script demonstrates the creation of custom Bash commands, focusing on setting up variables and iterating through a directory's contents without using external commands directly. When executed, the script generates a clean, single-column output of the directory's contents.
+
+## Prerequisites
+To use this script, you should have the following:
+
+- A Unix/windows like operating system (Linux, Windows macOS).
+- Use VScode terminal
+- Bash shell (usually available by default).
+- Sufficient permissions to access the `/usr/local` directory.
+
+## Usage
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone <repository-url>
+
+1. Change your working directory to the project folder:
+cd <project-folder>
+2. Make the script executable:
+chmod +x list_usr_local.sh
+3. Run the script to list the contents of the /usr/local directory:
+./list_usr_local.sh
+
+The output will be displayed in your terminal or command prompt in a single-column format, listing the files and directories found in the /usr/local directory.
+
+<b>Customization<b>
+You can customize the script by changing the directory_path variable to point to a different directory if needed.
+
+<b>Acknowledgments<b>
+Learning and creating custom Bash commands is an essential skill for any Bash programmer.
+This script was created as an example for educational purposes.
+Feel free to use and modify this script for your own projects and learning purposes. If you encounter any issues or have suggestions for improvements, please don't hesitate to open an issue or pull request.
+
